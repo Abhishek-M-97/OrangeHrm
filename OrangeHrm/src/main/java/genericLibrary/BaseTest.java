@@ -56,11 +56,11 @@ public class BaseTest {
 	public void logout() {
 		
 	}
-	@AfterClass
+	//@AfterClass
 	/**
 	 * This method is used to perform postcondition actions on the application
 	 */
-	public void postCondition() throws InterruptedException {
-		driver.quit();
-	}
+//	public void postCondition() throws InterruptedException {
+//		driver.quit();
+	//}
 }

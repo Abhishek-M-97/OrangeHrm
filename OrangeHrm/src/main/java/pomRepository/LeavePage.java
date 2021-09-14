@@ -20,7 +20,12 @@ public class LeavePage {
 	private WebElement toDate;
 	@FindBy(id="btnSearch")
 	private WebElement searchbtn;
+	@FindBy(id="leaveList_txtEmployee_empName")
+	private WebElement empSearchField;
 	
+	public WebElement getEmpSearchField() {
+		return empSearchField;
+	}
 	public WebElement getLeaveTab() {
 		return leaveTab;
 	}
