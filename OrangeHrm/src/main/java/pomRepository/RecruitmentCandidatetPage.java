@@ -5,20 +5,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class RecruitmenCandidatetPage {
+public class RecruitmentCandidatetPage {
 
-	public RecruitmenCandidatetPage(WebDriver driver){
+	public RecruitmentCandidatetPage(WebDriver driver){
 		PageFactory.initElements(driver, this);
 	}
 
 	@FindBy(id="btnAdd")
 	private WebElement AddButton;
 
-	@FindBy(id="btnDelete")
-	private WebElement DeleteButton;
-
-	@FindBy(id="dialogDeleteBtn")
-	private WebElement OkButton;
 
 	@FindBy(id="addCandidate_firstName")
 	private WebElement FirstNameTextField;
@@ -59,8 +54,6 @@ public class RecruitmenCandidatetPage {
 	@FindBy(id="menu_recruitment_viewCandidates")
 	private WebElement CandidatesList;
 
-	@FindBy(id="ohrmList_chkSelectRecord_23_4")
-	private WebElement selectRecord;
 
 	@FindBy(id="candidateSearch_jobTitle")
 	private WebElement jobTitle;
@@ -83,6 +76,47 @@ public class RecruitmenCandidatetPage {
 	@FindBy(id="candidateSearch_modeOfApplication")
 	private WebElement modeOfApplication;
 	
+	@FindBy(id="vacancySearch_jobVacancy")
+	private WebElement vacancyDropdown;
+	
+	;
+
+	public WebElement getVacancyDropdown() {
+		return vacancyDropdown;
+	}
+	
+	@FindBy(id="btnSrch")
+	private WebElement searchButton;
+
+
+	public WebElement getSearchButton() {
+		return searchButton;
+	}
+	
+	@FindBy(xpath="//input[@type='checkbox']/../../../..//input[@name='chkSelectRow[]']")
+    private WebElement selectRecord;
+
+
+	public WebElement getSelectRecord() {
+		return selectRecord;
+	}
+	
+	@FindBy(id="btnDelete")
+	private WebElement DeleteButton;
+
+	
+	public WebElement getDeleteButton() {
+		return DeleteButton;
+	}
+
+
+	public WebElement getOkButton() {
+		return OkButton;
+	}
+
+	@FindBy(id="dialogDeleteBtn")
+	private WebElement OkButton;
+
 	
 	public WebElement getJobTitle() {
 		return jobTitle;
@@ -119,15 +153,6 @@ public class RecruitmenCandidatetPage {
 	}
 
 
-	public WebElement getOkButton() {
-		return OkButton;
-	}
-
-
-	public WebElement getSelectRecord() {
-		return selectRecord;
-	}
-
 	public WebElement getCandidatesList() {
 		return CandidatesList;
 	}
@@ -156,9 +181,6 @@ public class RecruitmenCandidatetPage {
 		return AddButton;
 	}
 
-	public WebElement getDeleteButton() {
-		return DeleteButton;
-	}
 
 	public WebElement getFirstNameTextField() {
 		return FirstNameTextField;

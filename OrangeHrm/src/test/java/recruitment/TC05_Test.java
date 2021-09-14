@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import genericLibrary.BaseTest;
 import genericLibrary.SelectClassUtil;
 import pomRepository.HomePage;
-import pomRepository.RecruitmenCandidatetPage;
+import pomRepository.RecruitmentCandidatetPage;
 
 public class TC05_Test extends BaseTest{
 
@@ -13,11 +13,11 @@ public class TC05_Test extends BaseTest{
 	public void addCandidateDetails() {
 		HomePage homePage=new HomePage(driver);
 		homePage.getRecruitment().click();
-		RecruitmenCandidatetPage recruitementPage=new RecruitmenCandidatetPage(driver);
+		RecruitmentCandidatetPage recruitementPage=new RecruitmentCandidatetPage(driver);
 		recruitementPage.getAddButton().click();
-		recruitementPage.getFirstNameTextField().sendKeys("Sudarshan");
-		recruitementPage.getMiddleNameTextField().sendKeys("S");
-		recruitementPage.getLastNameTextField().sendKeys("Gowdru");
+		recruitementPage.getFirstNameTextField().sendKeys("Abhishek");
+		recruitementPage.getMiddleNameTextField().sendKeys("M");
+		recruitementPage.getLastNameTextField().sendKeys("Gowda");
 		recruitementPage.getEmailTextField().sendKeys("sudarshangkssdd@gmail.com");
 		recruitementPage.getContactNoTextField().sendKeys("8861855490");
 		recruitementPage.getJobVacancyDropdown().click();
