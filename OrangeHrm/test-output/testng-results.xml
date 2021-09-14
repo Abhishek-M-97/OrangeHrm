@@ -7,23 +7,17 @@
     <line>
       <![CDATA[Successfully entered password into textField]]>
     </line>
-    <line>
-      <![CDATA[Directory Page is Displayed]]>
-    </line>
-    <line>
-      <![CDATA[User found]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25645" started-at="2021-09-13T15:54:49 IST" finished-at="2021-09-13T15:55:15 IST">
+  <suite name="Default suite" duration-ms="26120" started-at="2021-09-13T17:55:37 IST" finished-at="2021-09-13T17:56:03 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25645" started-at="2021-09-13T15:54:49 IST" finished-at="2021-09-13T15:55:15 IST">
-      <class name="directory.TC14_Test">
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:directory.TC14_Test@63440df3]" name="preCondition" is-config="true" duration-ms="2892" started-at="2021-09-13T15:54:49 IST" finished-at="2021-09-13T15:54:52 IST">
+    <test name="Default test" duration-ms="26120" started-at="2021-09-13T17:55:37 IST" finished-at="2021-09-13T17:56:03 IST">
+      <class name="leave.TC12_Test">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:leave.TC12_Test@63440df3]" name="preCondition" is-config="true" duration-ms="2920" started-at="2021-09-13T17:55:37 IST" finished-at="2021-09-13T17:55:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="loginCredentials()[pri:0, instance:directory.TC14_Test@63440df3]" name="loginCredentials" is-config="true" duration-ms="6860" started-at="2021-09-13T15:54:52 IST" finished-at="2021-09-13T15:54:59 IST">
+        <test-method status="PASS" signature="loginCredentials()[pri:0, instance:leave.TC12_Test@63440df3]" name="loginCredentials" is-config="true" duration-ms="7683" started-at="2021-09-13T17:55:40 IST" finished-at="2021-09-13T17:55:48 IST">
           <reporter-output>
             <line>
               <![CDATA[Successfully entered username into textField]]>
@@ -33,25 +27,19 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginCredentials -->
-        <test-method status="PASS" signature="directory()[pri:0, instance:directory.TC14_Test@63440df3]" name="directory" duration-ms="14988" started-at="2021-09-13T15:54:59 IST" finished-at="2021-09-13T15:55:14 IST">
+        <test-method status="PASS" signature="leave()[pri:0, instance:leave.TC12_Test@63440df3]" name="leave" duration-ms="14387" started-at="2021-09-13T17:55:48 IST" finished-at="2021-09-13T17:56:02 IST">
           <reporter-output>
-            <line>
-              <![CDATA[Directory Page is Displayed]]>
-            </line>
-            <line>
-              <![CDATA[User found]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- directory -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:directory.TC14_Test@63440df3]" name="logout" is-config="true" duration-ms="1" started-at="2021-09-13T15:55:14 IST" finished-at="2021-09-13T15:55:14 IST">
+        </test-method> <!-- leave -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:leave.TC12_Test@63440df3]" name="logout" is-config="true" duration-ms="1" started-at="2021-09-13T17:56:02 IST" finished-at="2021-09-13T17:56:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:directory.TC14_Test@63440df3]" name="postCondition" is-config="true" duration-ms="818" started-at="2021-09-13T15:55:14 IST" finished-at="2021-09-13T15:55:15 IST">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:leave.TC12_Test@63440df3]" name="postCondition" is-config="true" duration-ms="1042" started-at="2021-09-13T17:56:02 IST" finished-at="2021-09-13T17:56:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-      </class> <!-- directory.TC14_Test -->
+      </class> <!-- leave.TC12_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
