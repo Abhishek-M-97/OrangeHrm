@@ -18,12 +18,12 @@ public class TC05_Test extends BaseTest{
 		recruitementPage.getFirstNameTextField().sendKeys("Abhishek");
 		recruitementPage.getMiddleNameTextField().sendKeys("M");
 		recruitementPage.getLastNameTextField().sendKeys("Gowda");
-		recruitementPage.getEmailTextField().sendKeys("sudarshangkssdd@gmail.com");
-		recruitementPage.getContactNoTextField().sendKeys("8861855490");
+		recruitementPage.getEmailTextField().sendKeys("abc@gmail.com");
+		recruitementPage.getContactNoTextField().sendKeys("1234567890");
 		recruitementPage.getJobVacancyDropdown().click();
 		SelectClassUtil dropdown=new SelectClassUtil();
 		dropdown.selectDropDown(recruitementPage.getJobVacancyDropdown(), "Associate IT Manager");
-		recruitementPage.getResume().sendKeys("C:\\Users\\Devraj\\Desktop\\Sudarshan S.docx");
+		recruitementPage.getResume().sendKeys("C:\\Users\\Abhishek\\Desktop\\Resume_Manual.docx");
 		recruitementPage.getKeywordsTextField().sendKeys("abc");
 		recruitementPage.getCommentsTextField().sendKeys("details of Candidate");
 		recruitementPage.getCheckbox().click();

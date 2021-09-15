@@ -7,20 +7,17 @@
     <line>
       <![CDATA[Successfully entered password into textField]]>
     </line>
-    <line>
-      <![CDATA[Leave status is verified]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20331" started-at="2021-09-14T13:06:04 IST" finished-at="2021-09-14T13:06:24 IST">
+  <suite name="Default suite" duration-ms="28102" started-at="2021-09-15T10:19:04 IST" finished-at="2021-09-15T10:19:32 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20331" started-at="2021-09-14T13:06:04 IST" finished-at="2021-09-14T13:06:24 IST">
-      <class name="leave.TC12_Test">
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:leave.TC12_Test@63440df3]" name="preCondition" is-config="true" duration-ms="2908" started-at="2021-09-14T13:06:04 IST" finished-at="2021-09-14T13:06:07 IST">
+    <test name="Default test" duration-ms="28102" started-at="2021-09-15T10:19:04 IST" finished-at="2021-09-15T10:19:32 IST">
+      <class name="leave.TC13_Test">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:leave.TC13_Test@63440df3]" name="preCondition" is-config="true" duration-ms="3519" started-at="2021-09-15T10:19:04 IST" finished-at="2021-09-15T10:19:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="loginCredentials()[pri:0, instance:leave.TC12_Test@63440df3]" name="loginCredentials" is-config="true" duration-ms="8152" started-at="2021-09-14T13:06:07 IST" finished-at="2021-09-14T13:06:15 IST">
+        <test-method status="PASS" signature="loginCredentials()[pri:0, instance:leave.TC13_Test@63440df3]" name="loginCredentials" is-config="true" duration-ms="12671" started-at="2021-09-15T10:19:08 IST" finished-at="2021-09-15T10:19:20 IST">
           <reporter-output>
             <line>
               <![CDATA[Successfully entered username into textField]]>
@@ -30,18 +27,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginCredentials -->
-        <test-method status="PASS" signature="leave()[pri:0, instance:leave.TC12_Test@63440df3]" name="leave" duration-ms="9186" started-at="2021-09-14T13:06:15 IST" finished-at="2021-09-14T13:06:24 IST">
+        <test-method status="PASS" signature="leave()[pri:0, instance:leave.TC13_Test@63440df3]" name="leave" duration-ms="11839" started-at="2021-09-15T10:19:20 IST" finished-at="2021-09-15T10:19:32 IST">
           <reporter-output>
-            <line>
-              <![CDATA[Leave status is verified]]>
-            </line>
           </reporter-output>
         </test-method> <!-- leave -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:leave.TC12_Test@63440df3]" name="logout" is-config="true" duration-ms="0" started-at="2021-09-14T13:06:24 IST" finished-at="2021-09-14T13:06:24 IST">
+        <test-method status="PASS" signature="logout()[pri:0, instance:leave.TC13_Test@63440df3]" name="logout" is-config="true" duration-ms="0" started-at="2021-09-15T10:19:32 IST" finished-at="2021-09-15T10:19:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-      </class> <!-- leave.TC12_Test -->
+      </class> <!-- leave.TC13_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
